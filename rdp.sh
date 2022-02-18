@@ -1,7 +1,7 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m SUNLANDLI
+sudo useradd -m SUNLAND
 sudo adduser SUNLANDLI sudo
 echo 'SUNLANDLI:20202021' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
